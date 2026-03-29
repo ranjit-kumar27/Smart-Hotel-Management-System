@@ -1,0 +1,1 @@
+The system also includes a dedicated owner/admin module where hotel owners can manage room listings, monitor bookings, and update hotel details. It supports dynamic features such as real-time availability and pricing updates to improve operational efficiency
