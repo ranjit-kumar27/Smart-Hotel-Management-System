@@ -1,0 +1,16 @@
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Sensitive files
+src/main/resources/application.properties
+application-local.properties
+
+# Spring Boot
+target/
+
+# IntelliJ
+.idea/
+*.iml

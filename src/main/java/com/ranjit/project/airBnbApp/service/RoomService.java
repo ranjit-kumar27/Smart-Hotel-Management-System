@@ -1,0 +1,14 @@
+package com.ranjit.project.airBnbApp.service;
+import com.ranjit.project.airBnbApp.dto.RoomDto;
+
+
+import java.util.List;
+
+public interface RoomService {
+    RoomDto createRoom(Long hotelId,RoomDto roomDto);
+    List<RoomDto> getAllRoomsInHotel(Long hotelId);
+    RoomDto getRoomById(Long roomId);
+    void deleteRoomById(Long roomId);
+    RoomDto updateRoomById(Long hotelId, Long roomId, RoomDto roomDto);
+
+}
